@@ -3,7 +3,7 @@
 const buildDomString = (treehouseData) => {
 	let domString = '';
 	treehouseData.forEach((badges) => {
-		domString += `<div>`;
+		domString += `<div class="col-md-4">`;
 		domString += 	`<img src=${badges.icon_url}>`;
 		domString += `</div>`;
 	});
