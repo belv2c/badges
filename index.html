@@ -7,9 +7,27 @@
 </head>
 <body>
 
+<div id="badgeContainer"></div>
 
-<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.js"></script>
-<script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-<script type="text/javascript" src="./dist/app.js"></script>
+<div class="rellax">
+  I’m that default chill speed of "-2"
+</div>
+<div class="rellax" data-rellax-speed="7">
+  I’m super fast!!
+</div>
+<div class="rellax" data-rellax-speed="-4">
+  I’m extra slow and smooth
+</div>
+
+
+<!-- scripts -->
+	<script type="text/javascript" src="./lib/node_modules/rellax/rellax.js"></script>
+	<script>
+    	var rellax = new Rellax('.rellax')
+      
+    </script>
+	<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./dist/app.js"></script>
 </body>
 </html>
